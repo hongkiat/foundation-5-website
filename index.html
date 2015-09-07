@@ -1,0 +1,219 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation 5 Recipes</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+	<link rel="stylesheet" href="css/app.css" />
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+	
+	<header class="contain-to-grid sticky">
+		<nav class="top-bar" data-topbar role="navigation">
+			  <ul class="title-area">
+				<li class="name">
+				  <h1><a href="#">Foundation 5 Recipes</a></h1>
+				</li>
+				 
+				<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+			  </ul>
+
+			  <section class="top-bar-section">
+			  
+				<ul class="left">
+				  <li class="active"><a href="#">Home</a></li>
+				  <li><a href="#">About</a></li>
+				  <li class="has-dropdown"><a href="#">Recipes</a>
+						<ul class="dropdown">
+						  <li><a href="#">Main dishes</a></li>
+						  <li><a href="#">Side dishes</a></li>
+						  <li class="has-dropdown"><a href="#">Desserts</a>
+								<ul class="dropdown">
+									<li><a href="#">Cupcakes</a></li>
+									<li><a href="#">Ice creams</a></li>
+									<li><a href="#">Brownies</a></li>
+								</ul>
+						  </li>
+						</ul>
+				  </li>
+				  <li><a href="#">Blog</a><li>
+				</ul>
+				
+				<ul class="right">
+				  <li><a href="#">Contact Us</a></li>
+				  <li><a href="#">FAQ</a></li>
+				</ul>
+
+			  </section>
+		</nav>
+	</header>
+	
+	<div class="row">
+			
+			<!-- Main Div -->
+			<div class="large-8 columns">
+				
+				<!-- Popular Panel -->
+				<div class="panel">
+					
+					<!-- Main Popular Posts" -->
+					<div class="row popular-main">
+						<div class="medium-6 columns">
+							<img src="img/summer-salad.jpg" alt="Summer Salad">
+						</div>
+						
+						<div class="medium-6 columns">
+							<h3><a href="#">Summer Salad</a></h3>
+							<p>This summer salad will be the star of every garden party. It's made of tomatoes, cucumber, black olives and lettuce...</p>
+						</div>
+					</div>
+					
+					<!-- Additional Popular Posts -->
+					<div class="row popular-additional show-for-medium-up">
+						<div class="medium-4 columns">
+							<img src="img/cheese.jpg" alt="Cheese">
+							<h4><a href="#">Cheese with Fruits</a></h4>
+						</div>
+						<div class="medium-4 columns">
+							<img src="img/ice-cream.jpg" alt="Ice Cream">
+							<h4><a href="#">Ice Cream</a></h4>
+						</div>
+						<div class="medium-4 columns">
+							<img src="img/italian-salad.jpg" alt="Italian Salad">
+							<h4><a href="#">Italian Salad</a></h4>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row latest-post">
+					<div class="medium-3 columns">
+						<a class="th" href="img/breakfast.jpg"><img src="img/breakfast-th.jpg" alt="Breakfast"></a>
+					</div>
+					<div class="medium-9 columns">
+						<h4><a href="#">Breakfast with Eggs</a></h4>
+						<p>Maybe this is not the best breakfast for someone on a diet but you will wow your guests with this for sure ...</p>
+					</div>
+				</div>
+				
+				<div class="row latest-post">
+					<div class="medium-3 columns">
+						<a class="th" href="img/strawberry-cake.jpg"><img src="img/strawberry-cake-th.jpg" alt="Strawberry Cake"></a>
+					</div>
+					<div class="medium-9 columns">
+						<h4><a href="#">Strawberry Cake</a></h4>
+						<p>Strawberry cakes are the favourite fruit cakes of the summer as they are easy-to-made and not too ...</p>
+					</div>
+				</div>
+				
+				<div class="row latest-post">
+					<div class="medium-3 columns">
+						<a class="th" href="img/seafood.jpg"><img src="img/seafood-th.jpg" alt="Seafood"></a>
+					</div>
+					<div class="medium-9 columns">
+						<h4><a href="#">Seafood</a></h4>
+						<p>Seafood is one of the most healthy food that exists around the globe, as it contains many vitamins and ...</p>
+					</div>
+				</div>
+				
+				<div class="pagination-centered">
+				  <ul class="pagination">
+					<li class="arrow unavailable"><a href="">&laquo;</a></li>
+					<li class="current"><a href="">1</a></li>
+					<li><a href="">2</a></li>
+					<li><a href="">3</a></li>
+					<li><a href="">4</a></li>
+					<li class="unavailable"><a href="">&hellip;</a></li>
+					<li><a href="">12</a></li>
+					<li><a href="">13</a></li>
+					<li class="arrow"><a href="">&raquo;</a></li>
+				  </ul>
+				</div>
+			
+			</div>
+			
+			<aside class="large-4 columns">
+				
+				<!-- Newsletter Signup -->
+				<div class="row">
+					<div class="small-12 medium-9 large-12 columns end">
+						<h5>Sign Up To Our Newsletter</h5>
+						<form>
+							<div class="row collapse">
+								<div class="small-8 columns">
+									<input type="text" placeholder="your@ema.il">
+								</div>
+								<div class="small-4 columns">
+									<a href="#" class="button postfix">Send</a>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+				
+				<!-- Flexible Video -->
+				<div class="row">
+					<div class="small-12 medium-9 large-12 columns end">
+						<h5>Daily Video Recipe</h5>
+						<div class="flex-video">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/PAtt_K3Tjjk" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Sidebar Accordion -->
+				<div class="row">
+					<div class="small-12 medium-9 large-12 columns end">
+						<h5>Our Cookbook</h5>
+						<ul class="accordion" data-accordion>
+						  <li class="accordion-navigation">
+							<a href="#panel1a">Main dishes</a>
+							<div id="panel1a" class="content active">
+								<ul>
+									<li><a href="#">Poultry</a></li>
+									<li><a href="#">Pork</a></li>
+									<li><a href="#">Beef</a></li>
+									<li><a href="#">Vegetarian</a></li>
+								</ul>
+							</div>
+						  </li>
+						  <li class="accordion-navigation">
+							<a href="#panel2a">Side dishes</a>
+							<div id="panel2a" class="content">
+								<ul>
+									<li><a href="#">Potato dishes</a></li>
+									<li><a href="#">Vegetables</a></li>
+									<li><a href="#">Salads</a></li>
+									<li><a href="#">Rice recipes</a></li>
+								</ul>
+							</div>
+						  </li>
+						  <li class="accordion-navigation">
+							<a href="#panel3a">Desserts</a>
+							<div id="panel3a" class="content">
+								<ul>
+									<li><a href="#">Fruit cakes</a></li>
+									<li><a href="#">Brownies</a></li>
+									<li><a href="#">Ice creams</a></li>
+									<li><a href="#">Pies</a></li>
+								</ul>
+							</div>
+						  </li>
+						</ul>
+					</div>	
+				</div>
+			</aside>
+			
+		</div>
+		
+		
+		
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
